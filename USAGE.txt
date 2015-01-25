@@ -1,0 +1,7 @@
+Requirments:
+1. PHP 5
+2. php_mbstring extension (can be enabled in php.ini)
+
+Usage is simple:
+	php zkill.php <zkillboard url>
+html code gets saved to last_html.txt

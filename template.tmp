@@ -1,0 +1,28 @@
+<table width="1000" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tbody>
+    <tr>
+      <td width="66" height="65"><a href="<?php echo $data["link"]; ?>"><img src="ships/<?php echo $data["hull"]; ?>.png" width="64" height="64" border="0"></a></td>
+      <td width="934" height="65"> 
+        <table width="930" border="0" cellspacing="2" cellpadding="2" align="center" bordercolor="#000000">
+          <tbody>
+            <tr bgcolor="#1D1D1D"> 
+              <td width="320"><a href="<?php echo $data["link"]; ?>"><b><font face="Geneva, Arial, Helvetica, san-serif" size="2"><?php echo $data["hull"]; ?> ( <?php echo $data["type"]; ?> )</font></b></a></td>
+              <td width="352" bgcolor="#1D1D1D"><b><font color="#0066FF" face="Geneva, Arial, Helvetica, san-serif" size="2"><?php echo $data["character"]; ?></font></b></td>
+              <td width="238"><b><font color="#FF9999" face="Geneva, Arial, Helvetica, san-serif" size="2"><?php echo $data["isk_total"]; ?></font></b></td>
+            </tr>
+            <tr bgcolor="#1D1D1D"> 
+              <td width="320"><font face="Geneva, Arial, Helvetica, san-serif" size="2"><?php echo $data["system"]; ?>(<?php echo $data["security"]; ?>) / <?php echo $data["region"]; ?></font></td>
+              <td width="352"><font face="Geneva, Arial, Helvetica, san-serif" size="2"><?php echo $data["corporation"]; ?></font></td>
+              <td width="238"><font face="Geneva, Arial, Helvetica, san-serif" size="2"></font></td>
+            </tr>
+            <tr bgcolor="#1D1D1D"> 
+              <td width="320"><font face="Geneva, Arial, Helvetica, san-serif" size="2"><?php echo $data["date"]; ?></font></td>
+              <td width="352"><font face="Geneva, Arial, Helvetica, san-serif" size="2"><?php echo $data["alliance"]; ?></font></td>
+              <td width="238"><font face="Geneva, Arial, Helvetica, san-serif" color="#00CC00" size="2"><?php echo $data["isk_dropped"]; ?></font></td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
