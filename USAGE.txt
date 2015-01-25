@@ -1,4 +1,4 @@
-Requirments:
+Requirements:
 1. PHP 5
 2. php_mbstring extension (can be enabled in php.ini)
 
